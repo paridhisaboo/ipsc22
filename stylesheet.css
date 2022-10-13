@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   webkit-overflow-scrolling: touch;
   margin: 0 auto;
+  color: #1c3879;
 }
 
 .card-body {
@@ -83,7 +84,7 @@ html, body {
 }
 
 .bg-grey {
-    background-color: #dcdde1;
+    background-color: #1c3879;
 }
 
 .carousel-inner {
@@ -107,13 +108,18 @@ html, body {
 }
 
 .jumbotron {
-    background-color: #3d3d3d;
-    color: white;
+    background-color: #1c3879;
+    color: #C3F8FF;
     width: 100%;
+}
+
+.jumbotron a{
+    color: #ffbd59;
 }
 
 .page {
     width: 100%;
+    background-color: #1c3879;
     height: 100%;
     margin: 0 auto;
     overflow-y: hidden;
@@ -151,4 +157,18 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; 
+}
+
+.cardus{
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    color: #C3F8FF;
+    border: 1px solid #C3F8FF;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }

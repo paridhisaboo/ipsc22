@@ -28,18 +28,18 @@
                             Dropdown
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown10">
-                            <a class="dropdown-item" href="#">Link</a>
+                            <a class="dropdown-item" href="masonry.html">Sub-Topic1</a>
                             <a class="dropdown-item" href="#">Another Link</a>
-                            <a class="dropdown-item active" href="index.html">Index</a>
+                            <a class="dropdown-item active" href="index.html">Home</a>
                     </li>
                 </ul>
             </div>
         </div>
 
     <div class="card-deck full-width" id="us">
-        <div class="card border-0">
+        <div class="card border-0 cardus" data-tilt>
             <figure>
-                <img src="images/paridhi.jpg" alt="">
+                <img src="images/paridhi.jpg" alt="" class="rounded-circle">
             </figure>
             <div class="card-body">
                 <h4>
@@ -50,14 +50,14 @@
                             Something about me.
                         </li>
                 </ul>
-                <footer class="blockquote-footer">
+                <footer class="blockquote-footer" style="color: white">
                     Welham Girls' School
                 </footer>
             </div>
         </div>
-        <div class="card border-0">
+        <div class="card border-0 cardus" data-tilt>
             <figure>
-                <img src="images/vaishnavi.jpg" alt="">
+                <img src="images/vaishnavi.jpg" alt="" class="rounded-circle">
             </figure>
             <div class="card-body">
                 <h4>
@@ -68,7 +68,7 @@
                         Somthing about me.
                     </li>
                 </ul>
-                <footer class="blockquote-footer">
+                <footer class="blockquote-footer" style="color: white">
                     Welham Girls' School
                 </footer>
             </div>
@@ -78,9 +78,9 @@
     
 
     <div class="jumbotron endnote text-left full-width">
-        <h1>More to know</h1>
+        <h1 style="color: #ffbd59;">More to know</h1>
         <br>
-        <h3>Technologies Used</h3>
+        <h3 style="color: #ffbd59;">Technologies Used</h3>
         <p class="lead" style="margin-bottom: 30px;">
             We used the following languages and frameworks for this project-<br>
             HTML- To form the basic structure of the website<br>
@@ -91,7 +91,7 @@
             <a href="https://github.com/paridhisaboo/calendar.git" target="_blank">Github</a> for easy collaboration and version control.
             <br>
         </p>
-        <h3>We're Listening</h3>
+        <h3 style="color: #ffbd59;">We're Listening</h3>
         <p class="lead" style="margin-bottom: 30px;">
             Think we missed out on something? Let us know!
         </p>
@@ -104,7 +104,7 @@
                     <input type="text" class="form-control" name="message" placeholder="Your message">
                 </div>
                 <div class="col">
-                  <input type="submit" name="submit"> 
+                  <input class= "btn" type="submit" name="submit"> 
                 </div>
             </div>
         </form>
@@ -117,6 +117,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"crossorigin="anonymous"></script>
+        <script src="vanillatilt.js"></script>
 
         <script type="text/javascript">
             document.addEventListener('wheel', function(e)
@@ -131,7 +132,6 @@
                     document.getElementsByClassName('page')[0].scrollLeft -= delta;    
                     e.preventDefault();
                 }, { passive: false});
-
         </script>
 
     </body>
